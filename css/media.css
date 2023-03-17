@@ -534,8 +534,9 @@
    }
 
    /*sec two*/
+
    .section_two {
-      margin-top: 70px;
+      padding-top: 40px;
    }
 
    /*sec four*/
@@ -555,6 +556,20 @@
       height: 47px;
    }
 
+   /* sec six*/
+
+   .round_project::before {
+      width: 40px;
+      height: 40px;
+   }
+
+   .round_project::after {
+      bottom: 25.5px;
+      left: 14px;
+      width: 8px;
+      height: 8px;
+   }
+
    /*sec eight*/
 
    .sec_eight_section {
@@ -568,9 +583,36 @@
       justify-content: center;
       margin: 9.93vw 0 0 0;
    }
+
+   .title_sec_nine {
+      margin: 0px 10px 0 10px;
+   }
 }
 
 /* -------------------------- MEDIA 370 -----------------------*/
+
+@media screen and (max-width: 370px) {
+
+   /*sec four*/
+
+   .section_four {
+      padding: 0 10px 0 10px;
+   }
+
+   .review_text {
+      text-align: center;
+   }
+
+   .img_rev_name_city {
+      padding: 8px 0 15px 8%;
+
+   }
+
+   .img_reviewer {
+      width: 47px;
+      height: 47px;
+   }
+}
 
 @media screen and (max-width: 370px) {
 
