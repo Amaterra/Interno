@@ -10,6 +10,12 @@ tabsMenu.addEventListener("click", function () {
    bodyLock.classList.toggle("lock");
 
 });
+// button logo
+
+const tabBtnLogo = document.querySelector(".vector");
+tabBtnLogo.addEventListener("click", function () {
+   tabBtnLogo.onclick = document.location.href = "/interno/index.html";
+});
 
 // button create
 

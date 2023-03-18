@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1364px) {
 
-   /*navigation*/
+   /* navigation */
 
    .nav__link {
       font-size: calc(15px + (20 - 15)*((100vw - 940px) / (1364 - 940)));
@@ -14,7 +14,7 @@
       margin-right: calc(0px + (120 - 0) * ((100vw - 940px) / (1364 - 940)));
    }
 
-   /*sec one*/
+   /* sec one */
 
    .title_one,
    .title_two {
@@ -26,17 +26,42 @@
       font-size: calc(10px + (22 - 10)*((100vw - 320px) / (1364 - 320)));
    }
 
-   /*sec nine*/
+   .button_name {
+      font-size: calc(10px + (18 - 10)*((100vw - 320px) / (1364 - 320)));
+   }
+
+   /* sec nine */
 
    .element_arrow::after {
       width: calc(10px + (20 - 10)*((100vw - 320px) / (1012 - 320)));
       height: calc(10px + (20 - 10)*((100vw - 320px) / (1012 - 320)));
+   }
+
+   /* content */
+
+   .title_content {
+      font-size: calc(25px + (80 - 25)*((100vw - 320px) / (1364 - 320)));
    }
 }
 
 /* -------------------------- MEDIA 1018 -----------------------*/
 
 @media screen and (max-width: 1018px) {
+
+   /* sec one */
+
+   .button_name::before {
+      width: 20px;
+      height: 2px;
+   }
+
+   .button_name::after {
+      width: 17px;
+      height: 17px;
+   }
+
+   /* sec three */
+
    .img_cover_sec_three {
       height: auto;
       max-width: 592px;
@@ -48,25 +73,7 @@
 
 @media screen and (max-width: 1012px) {
 
-   /*sec one*/
-
-   .button_create {
-      font-size: calc(0.7em + (1.13 - 0.7)*((100vw - 320px) / (1012 - 320)));
-   }
-
-   .button_create::before {
-      width: 18px;
-      height: 1.5px;
-   }
-
-   .button_create::after {
-      width: 15px;
-      height: 15px;
-      border-top: 1.8px solid #CDA274;
-      border-right: 1.8px solid #CDA274;
-   }
-
-   /*sec two*/
+   /* sec two */
 
    .section_two {
       display: flex;
@@ -166,7 +173,7 @@
       line-height: calc(28px + (30 - 28)*((100vw - 940px) / (1364 - 940)));
    }
 
-   /*sec six*/
+   /* sec six */
 
    .title_sec_six {
       font-size: calc(25px + (47 - 25)*((100vw - 320px) / (1012 - 320)));
@@ -184,7 +191,7 @@
       font-size: calc(18px + (22 - 18)*((100vw - 320px) / (1012 - 320)));
    }
 
-   /*sec seven*/
+   /* sec seven */
 
    .sec_seven_title {
       font-size: calc(35px + (85 - 35)*((100vw - 320px) / (1364 - 320)));
@@ -194,7 +201,7 @@
       font-size: calc(8px + (22 - 8)*((100vw - 320px) / (1364 - 320)));
    }
 
-   /*sec eight*/
+   /* sec eight */
 
    .title_sec_eight {
       font-size: calc(25px + (48 - 25)*((100vw - 320px) / (1012 - 320)));
@@ -212,7 +219,7 @@
       font-size: calc(14px + (16 - 14)*((100vw - 320px) / (1012 - 320)));
    }
 
-   /*sec nine*/
+   /* sec nine */
 
    .title_sec_nine {
       font-size: calc(25px + (50 - 25)*((100vw - 320px) / (1012 - 320)));
@@ -228,7 +235,7 @@
       font-size: calc(0.9em + (1.125 - 0.9)*((100vw - 320px) / (1012 - 320)));
    }
 
-   /*footer*/
+   /* footer */
 
    .foot_title {
       font-size: calc(18px + (25 - 18)*((100vw - 320px) / (1364 - 320)));
@@ -247,7 +254,7 @@
 
 @media screen and (max-width: 940px) {
 
-   /*header*/
+   /* header */
 
    .head {
       height: 70px;
@@ -265,16 +272,7 @@
       display: none;
    }
 
-   /*sec one*/
-
-   .button_create::before {
-      display: none;
-   }
-
-   .button_create::after {
-      width: 12px;
-      height: 12px;
-   }
+   /* sec three */
 
    .section_three {
       display: flex;
@@ -284,8 +282,6 @@
    .about_sec_three {
       text-align: center;
    }
-
-   /*sec three */
 
    .img_cover_sec_three {
       height: auto;
@@ -311,10 +307,11 @@
       justify-content: space-evenly;
    }
 
-   /*sec six*/
+   /* sec six */
 
    .container_sec_six_one,
    .container_sec_six_two {
+
       display: grid;
       grid-template-columns: repeat(1);
    }
@@ -329,7 +326,7 @@
       left: 17px;
    }
 
-   /*sec nine*/
+   /* sec nine */
 
    .element_arrow::before {
       display: none;
@@ -340,7 +337,7 @@
 
 @media screen and (max-width: 760px) {
 
-   /*navigation*/
+   /* navigation */
 
    .body.lock {
       overflow: hidden;
@@ -438,7 +435,33 @@
       transition: all 0.3s ease 0s;
    }
 
-   /*footer*/
+   /* sec one */
+
+   .title_one,
+   .title_two {
+      font-size: calc(22px + (50 - 22)*((100vw - 320px) / (760 - 320)));
+      line-height: calc(25px + (96 - 25)*((100vw - 320px) / (1364 - 320)));
+   }
+
+   .text_content_main {
+      font-size: calc(11px + (22 - 11)*((100vw - 320px) / (760 - 320)));
+   }
+
+   .button_name::before {
+      width: 18px;
+      height: 1px;
+   }
+
+   .button_name::after {
+      width: 15px;
+      height: 15px;
+   }
+
+   .button_create {
+      border-radius: 1em;
+   }
+
+   /* footer */
 
    .footer {
       display: flex;
@@ -472,9 +495,20 @@
 
 /* -------------------------- MEDIA 623 -----------------------*/
 
-/* sec three */
-
 @media screen and (max-width: 623px) {
+
+   /* sec one */
+
+   .button_name::before {
+      display: none;
+   }
+
+   .button_name::after {
+      width: 10px;
+      height: 10px;
+   }
+
+   /* sec three */
 
    .button_get_free_estimate {
       font-size: .7em;
@@ -498,7 +532,7 @@
       text-align: center;
    }
 
-   /*sec four*/
+   /* sec four */
 
    .title_sec_four_two {
       margin-bottom: 25px;
@@ -511,35 +545,35 @@
    .button_sec_nine {
       padding: 1.5vw 2.18em 1.5vw 2.12em;
    }
+
+   /* content */
+
+   .title_content {
+      margin-top: 100px;
+   }
 }
 
 /* -------------------------- MEDIA 544 -----------------------*/
 
 @media screen and (max-width: 544px) {
 
-   /*sec one*/
+   /* sec one */
 
-   .button_create {
-      font-size: 0.8em;
-      padding: 0.7em;
-      border-radius: 0.7em;
+   .button_location {
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: end;
+      margin-top: 7vw;
    }
 
-   .button_create::after {
-      display: none;
-   }
-
-   .button_name {
-      right: 1%;
-   }
-
-   /*sec two*/
+   /* sec two */
 
    .section_two {
       padding-top: 40px;
    }
 
-   /*sec four*/
+   /* sec four */
 
    .review_info {
       height: 100%;
@@ -556,7 +590,7 @@
       height: 47px;
    }
 
-   /* sec six*/
+   /* sec six */
 
    .round_project::before {
       width: 40px;
@@ -570,7 +604,7 @@
       height: 8px;
    }
 
-   /*sec eight*/
+   /* sec eight */
 
    .sec_eight_section {
       height: auto;
@@ -589,11 +623,40 @@
    }
 }
 
+/* -------------------------- MEDIA 420 -----------------------*/
+
+@media screen and (max-width: 420px) {
+
+   /* sec one */
+
+   .button_location {
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: end;
+      margin-top: 7vw;
+   }
+}
+
 /* -------------------------- MEDIA 370 -----------------------*/
 
 @media screen and (max-width: 370px) {
 
-   /*sec four*/
+   /* sec one */
+
+   .button_name {
+      padding: 0.8em 3.5em 0.8em 1.5em;
+   }
+
+   .button_create {
+      border-radius: 0.7em;
+   }
+
+   .button_name::after {
+      margin-top: -1.5px;
+   }
+
+   /* sec four */
 
    .section_four {
       padding: 0 10px 0 10px;
@@ -616,7 +679,7 @@
 
 @media screen and (max-width: 370px) {
 
-   /*sec eight*/
+   /* sec eight */
 
    .sec_eight_section {
       padding: 12px 12px 120px 12px;
@@ -657,16 +720,25 @@
    .container_round_btn {
       margin-top: -9vw;
    }
+
+   /* content */
+
+   .img_content_content {
+      width: 200px;
+      height: 200px;
+   }
 }
 
 /* -------------------------- MEDIA 320 -----------------------*/
 
 @media screen and (max-width: 320px) {
 
-   /*sec one*/
+   /* sec one */
 
-   .button_create {
-      left: 25%;
-      top: 10%;
+   .button_location {
+      height: auto;
+      display: flex;
+      justify-content: end;
+      margin-top: 7vw;
    }
 }

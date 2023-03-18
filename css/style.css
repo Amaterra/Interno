@@ -36,6 +36,8 @@
    transform: translateY(-50%);
    margin-left: 8.3%;
    z-index: 20;
+
+   cursor: pointer;
 }
 
 .vector::before {
@@ -49,6 +51,8 @@
    height: 13px;
    border-radius: 5px 5px 0 0;
    z-index: 5;
+
+   cursor: pointer;
 }
 
 .vector::after {
@@ -63,6 +67,8 @@
    left: 44.88px;
    top: -7px;
    z-index: 5;
+
+   cursor: pointer;
 }
 
 .header_burger.active:before {
@@ -150,26 +156,25 @@
    margin-bottom: 3vw;
 }
 
-.button_name {
-   position: relative;
-   right: 12%;
-}
-
 .button_create {
    position: relative;
-   font-family: 'Jost';
-   font-weight: 400;
-   font-size: 1.13em;
-   color: #FFFFFF;
    background: #292F36;
    border: 1px solid #292F36;
-   border-radius: 1.13em;
-   top: 50%;
+   border-radius: 19px;
    z-index: 1;
-   padding: 1.37em 4.18em 1.37em 2.13em;
+   cursor: pointer;
 }
 
-.button_create::before {
+.button_name {
+   font-family: 'Jost';
+   font-weight: 400;
+   color: #FFFFFF;
+   font-size: 1.3em;
+   padding: 1.3em 4em 1.3em 2em;
+
+}
+
+.button_name::before {
    content: "";
    position: absolute;
    background-color: #CDA274;
@@ -180,7 +185,7 @@
    transform: translateY(50%);
 }
 
-.button_create::after {
+.button_name::after {
    content: "";
    position: absolute;
    display: block;
@@ -219,6 +224,7 @@
    background-color: #FFFFFF;
    border: #FFFFFF;
    position: relative;
+   cursor: pointer;
 }
 
 .button_view::before {
@@ -973,6 +979,11 @@
    gap: 3vw;
 }
 
+.social_item {
+   text-decoration: none;
+   color: #292F36;
+}
+
 .foot_about {
    font-family: 'Jost';
    font-style: normal;
@@ -1005,6 +1016,26 @@
 
 /*content*/
 
-.img_cover_content {
-   margin-top: 100px;
+.title_content {
+   display: block;
+   position: relative;
+   font-family: 'DM Serif Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 80px;
+   color: #292F36;
+   margin-top: 15%;
+   text-align: center;
+}
+
+.content_content {
+   margin: 5.6vw 8.4% 7vw 8.4%;
+   text-align: center;
+
+}
+
+.img_content_content {
+   border: #E7E7E7 3px solid;
+   width: 300px;
+   height: 300px;
 }
