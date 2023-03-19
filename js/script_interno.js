@@ -10,6 +10,7 @@ tabsMenu.addEventListener("click", function () {
    bodyLock.classList.toggle("lock");
 
 });
+
 // button logo
 
 const tabBtnLogo = document.querySelector(".vector");
@@ -42,4 +43,23 @@ tabBtnViewThree.addEventListener("click", function () {
    tabBtnViewThree.onclick = document.location.href = "/interno/content.html";
 });
 
+//popup
 
+const tabClosePopup = document.querySelector(".popup_close");
+const tabCloseBg = document.querySelector(".popup_bg");
+const tabCloseWindow = document.querySelector(".popup");
+
+tabClosePopup.addEventListener("click", function () {
+
+   // tabCloseBg.addEventListener("click", function () {
+   tabCloseBg.classList.toggle("active");
+   tabCloseWindow.classList.toggle("active");
+
+});
+
+const tabBtnConnect = document.querySelector(".button_sec_nine");
+
+tabBtnConnect.addEventListener("click", function () {
+   tabCloseWindow.classList.toggle("active");
+   tabCloseBg.classList.toggle("active");
+});
