@@ -961,9 +961,6 @@
 
 
    animation: from-top 2.5s forwards;
-
-
-
 }
 
 @keyframes from-top {
@@ -1081,7 +1078,10 @@
    margin: 0;
    padding: 0;
    top: 20%;
-   left: 40.5%;
+
+   left: 50%;
+   transform: translateX(-50%);
+
    border-radius: 10px;
    font-size: 20px;
    display: flex;
