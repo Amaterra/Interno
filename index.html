@@ -39,9 +39,9 @@
          <div class="header_menu">
             <nav class="navigation">
                <a class="nav__link" href='javascript:document.location.href = "/interno/index.html";'>Home</a>
-               <a class="nav__link" href="#">About Us</a>
-               <a class="nav__link" href="#">Services</a>
-               <a class="nav__link" href="#">Pages</a>
+               <a class="nav__link" href='javascript:document.location.href = "/interno/content.html";'>About Us</a>
+               <a class="nav__link" href='javascript:document.location.href = "/interno/content.html";'>Services</a>
+               <a class="nav__link" href='javascript:document.location.href = "/interno/content.html";'>Pages</a>
                <a class="nav__link" href="#nav_contacts">Contact Us</a>
             </nav>
          </div>
@@ -221,7 +221,9 @@
                         <h1 class="title_project">Winery Dry Creek Building</h1>
                         <p class="about_project">Art Modern</p>
                      </div>
-                     <div class="round_project"></div>
+
+                     <button class="round_project" type="button"></button>
+
                   </div>
                </div>
 
@@ -232,7 +234,7 @@
                         <h1 class="title_project">Creative Workplace Design</h1>
                         <p class="about_project">Minimalist</p>
                      </div>
-                     <div class="round_project"></div>
+                     <button class="round_project" type="button"></button>
                   </div>
                </div>
             </container>
@@ -244,7 +246,7 @@
                         <h1 class="title_project">Bedroom Interior Pot Work</h1>
                         <p class="about_project">Modern</p>
                      </div>
-                     <div class="round_project"></div>
+                     <button class="round_project" type="button"></button>
                   </div>
                </div>
 
@@ -255,7 +257,7 @@
                         <h1 class="title_project">Light Ambience Sepia Design</h1>
                         <p class="about_project">Scandinavian</p>
                      </div>
-                     <div class="round_project"></div>
+                     <button class="round_project" type="button"></button>
                   </div>
                </div>
             </container>
@@ -290,6 +292,7 @@
    </section>
 
    <!--SECTION EIGHT resent blogs-->
+
    <container class="indents">
       <section class="section_eight">
          <div class="sec_eight">
@@ -309,7 +312,7 @@
                   <div class="date_sec_eight">November 23, 2021</div>
 
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
 
                </div>
@@ -320,7 +323,7 @@
                   <h1 class="title_sec_eight_sec">How To Choose The Best Wall Art & Decor House?</h1>
                   <p class="date_sec_eight">November 23, 2021</p>
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
                </div>
 
@@ -331,7 +334,7 @@
                   <h1 class="title_sec_eight_sec">Tips To Increase The Interior Value Of Your House</h1>
                   <p class="date_sec_eight">November 23, 2021</p>
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
                </div>
 
@@ -343,7 +346,7 @@
                   <h1 class="title_sec_eight_sec">Best Solution For Any Office & Business Interior</h1>
                   <p class="date_sec_eight">November 23, 2021</p>
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
                </div>
 
@@ -354,7 +357,7 @@
                   <h1 class="title_sec_eight_sec">Get Solution For Building Construction Work</h1>
                   <p class="date_sec_eight">November 23, 2021</p>
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
                </div>
 
@@ -365,18 +368,18 @@
                   <h1 class="title_sec_eight_sec">Attain The Best Finish For The Kitchen Cabinets</h1>
                   <p class="date_sec_eight">November 23, 2021</p>
                   <div class="container_round_btn">
-                     <div class="round_button_sec_eight"></div>
+                     <button class="round_button_sec_eight" type="button"></button>
                   </div>
                </div>
             </div>
       </section>
 
       <!--SECTION NINE-->
+
       <section class="section_nine">
          <div class="background_sec_nine">
             <h1 class="title_sec_nine">Wanna join the interno?</h1>
             <p class="info_sec_nine">Contact Us & Get a Free Consultation</p>
-
             <button class="button_sec_nine" type="button">
                <p class="name_button_sec_nine">Connect with Us</p>
                <div class="button_elem">
@@ -384,21 +387,21 @@
                </div>
             </button>
          </div>
-
          <div class="popup_bg"></div>
          <div class="popup">
             <p class="content_popup">Connect with Us</p>
             <div class="popup_close"></div>
 
-            <form class="popup_form">
-               <input class="popup_input" type="tel" name="popup-form" placeholder="Phone number">
-               <input class="popup_input" type="email" name="popup-form" placeholder="Email">
-               <button class="popup_button" type="button">
+            <p class="success-message"></p>
+
+            <form class="popup_form" action="" novalidate>
+               <input type="tel" class="input input_tel popup_input" name="popup-form" placeholder="Phone number">
+               <input type="email" class="input input_email popup_input" name="popup-form" placeholder="Email">
+               <button class="popup_button" type="submit">
                   <p class="popup_button_name">Confirm</p>
                </button>
             </form>
          </div>
-
       </section>
 
       <!--FOOT-->
@@ -448,6 +451,5 @@
    </container>
    <script src="/interno/js/script_interno.js"></script>
 </body>
-
 
 </html>

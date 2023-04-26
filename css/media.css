@@ -316,14 +316,13 @@
       grid-template-columns: repeat(1);
    }
 
-   .round_project::before {
+   .round_project {
       width: 50px;
       height: 50px;
    }
 
-   .round_project::after {
-      bottom: 30px;
-      left: 17px;
+   .round_project::before {
+      left: 18px;
    }
 
    /* sec nine */
@@ -592,16 +591,18 @@
 
    /* sec six */
 
-   .round_project::before {
+   .round_project {
       width: 40px;
       height: 40px;
+      margin: 5px 0 0 10px;
    }
 
-   .round_project::after {
-      bottom: 25.5px;
+   .round_project::before {
       left: 14px;
       width: 8px;
       height: 8px;
+      border-top: 1.9px solid #292F36;
+      border-right: 1.9px solid #292F36;
    }
 
    /* sec eight */
@@ -705,16 +706,17 @@
       line-height: 23px;
    }
 
-   .round_button_sec_eight::before {
+   .round_button_sec_eight {
       width: 32px;
       height: 32px;
-
    }
 
-   .round_button_sec_eight::after {
-      margin: -19px 0 0 11.5px;
-      width: 5px;
-      height: 5px;
+   .round_button_sec_eight::before {
+      left: 12px;
+      width: 5.5px;
+      height: 5.5px;
+      border-top: 1.5px solid #292F36;
+      border-right: 1.5px solid #292F36;
    }
 
    .container_round_btn {
