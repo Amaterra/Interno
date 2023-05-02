@@ -348,13 +348,11 @@
       margin: 0;
       bottom: 0;
       z-index: 5;
-
       display: flex;
       flex-direction: column;
       align-items: center;
       top: 50%;
       transform: translateY(-45%);
-
    }
 
    .nav__link {
@@ -366,7 +364,6 @@
       z-index: 5;
       padding: 0;
       margin-bottom: 10px;
-
    }
 
    .header_menu {
@@ -378,7 +375,6 @@
       background-color: whitesmoke;
       z-index: 2;
       transition: all 1s ease 0s;
-
       overflow: auto;
    }
 
@@ -393,7 +389,6 @@
       position: relative;
       width: 30px;
       height: 20px;
-
       margin-left: auto;
       margin-right: 30px;
       bottom: 14%;
@@ -669,16 +664,13 @@
 
    .img_rev_name_city {
       padding: 8px 0 15px 8%;
-
    }
 
    .img_reviewer {
       width: 47px;
       height: 47px;
    }
-}
 
-@media screen and (max-width: 370px) {
 
    /* sec eight */
 

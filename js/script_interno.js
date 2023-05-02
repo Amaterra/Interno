@@ -85,22 +85,6 @@ function validateTel(tel) {
    return regular.test(String(tel));
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // проверка на пустоту
 
 form.onsubmit = function () {
@@ -136,13 +120,9 @@ form.onsubmit = function () {
       inputTel.classList.remove('error');
    }
 
-
-
-
+   // если валидно, окно закрывается и появляется сообщение
 
    if (validateTel(telVal) & validateEmail(emailVal)) {
-
-      console.log('rabotaet1');
 
       let text = 'successfuly';
       let popupWindow = document.createElement('div');
@@ -154,7 +134,6 @@ form.onsubmit = function () {
       tabCloseBg.classList.toggle("active");
       tabCloseWindow.classList.toggle("active");
 
-
       setTimeout(
          () => {
             popupWindow.remove();
@@ -163,31 +142,4 @@ form.onsubmit = function () {
       );
       return false;
    }
-
-   setTimeout(
-      () => {
-         location.reload();
-      },
-      2000
-   );
-
 }
-
-
-
-//message
-
-
-// window.onload = function () {
-
-//    let telVal = inputTel.value;
-//    let emailVal = inputEmail.value;
-
-//    document.querySelector('.popup_button').onclick = () => {
-
-
-//    }
-// }
-
-
-

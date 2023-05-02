@@ -51,7 +51,6 @@
    height: 13px;
    border-radius: 5px 5px 0 0;
    z-index: 5;
-
    cursor: pointer;
 }
 
@@ -67,7 +66,6 @@
    left: 44.88px;
    top: -7px;
    z-index: 5;
-
    cursor: pointer;
 }
 
@@ -171,7 +169,6 @@
    color: #FFFFFF;
    font-size: 1.3em;
    padding: 1.3em 4em 1.3em 2em;
-
 }
 
 .button_name::before {
@@ -207,7 +204,6 @@
    justify-content: space-around;
    text-align: center;
    margin: 19.5vw 11.5% 11vw 11.5%;
-   /*+106px top, position*/
 }
 
 .button {
@@ -307,7 +303,6 @@
    font-size: 50px;
    line-height: 65px;
    letter-spacing: 0.22px;
-
    color: #292F36;
    margin-bottom: 3vw;
 }
@@ -322,7 +317,6 @@
    font-weight: 400;
    font-size: 22px;
    line-height: 33px;
-   /*33px*/
    color: #4D5053;
 }
 
@@ -363,7 +357,6 @@
    font-style: normal;
    font-weight: 400;
    font-size: 1.5em;
-   /*24px*/
    letter-spacing: 0.22px;
    color: #4D5053;
    margin: 0px;
@@ -376,7 +369,6 @@
    font-style: normal;
    font-weight: 400;
    font-size: 1.37em;
-   /*22px*/
    color: #4D5053;
 }
 
@@ -441,7 +433,6 @@
    max-width: 1200px;
    min-height: 675px;
    margin-top: 9.7vw;
-   /*140px*/
    padding: 10vw 3.5vw 8.4vw 3.5vw;
 }
 
@@ -483,7 +474,6 @@
 .img_rev_name_city {
    display: flex;
    padding-bottom: 1.56em;
-   /*25px*/
 }
 
 .reviewer_name {
@@ -784,7 +774,6 @@
    position: relative;
    margin-left: auto;
    margin-top: -2.7vw;
-   /*40px*/
 }
 
 .title_sec_eight {
@@ -859,13 +848,11 @@
    font-style: normal;
    font-weight: 400;
    font-size: 3.125em;
-   /*50px*/
    padding: 2em 5px 0 5px;
    line-height: 75px;
    text-align: center;
    letter-spacing: 0.22px;
    color: #FFFFFF;
-
 }
 
 .info_sec_nine {
@@ -887,12 +874,10 @@
    font-weight: 400;
    max-width: 270px;
    font-size: 1.125em;
-   /*18px*/
    padding: 1.31em 2.18em 1.31em 2.12em;
    background: #CDA274;
    border: 2px solid #CDA274;
    border-radius: 1.125em;
-   /*18px*/
    display: flex;
    align-items: center;
    gap: 1.5vw;
@@ -938,7 +923,6 @@
    top: 0;
    left: 0;
    z-index: 100;
-
    display: none;
 }
 
@@ -956,10 +940,7 @@
    transform: translate(-50%, -50%);
    z-index: 101;
    border-radius: 5px;
-
    display: none;
-
-
    animation: from-top 2.5s forwards;
 }
 
@@ -1023,15 +1004,10 @@
    border: #CDA274 solid 0.5px;
    border-radius: 10px;
    padding-left: 7px;
-
    font-family: 'Jost';
    font-style: normal;
    font-weight: 400;
-
-
 }
-
-
 
 .popup_button {
    background-color: #CDA274;
@@ -1074,14 +1050,11 @@
    height: 70px;
    z-index: 200;
    position: fixed;
-
    margin: 0;
    padding: 0;
    top: 20%;
-
    left: 50%;
    transform: translateX(-50%);
-
    border-radius: 10px;
    font-size: 20px;
    display: flex;
@@ -1092,17 +1065,15 @@
    letter-spacing: 3px;
    color: #E7E7E7;
    opacity: 0;
-
-   animation: ani 2.5s forwards;
-
+   animation: ani 10s forwards;
 }
 
 @keyframes ani {
-   0% {
+   100% {
       opacity: 0;
    }
 
-   100% {
+   0% {
       opacity: 1;
    }
 }
@@ -1153,7 +1124,6 @@
    color: #292F36;
    height: 27px;
    width: 130.31px;
-
 }
 
 .foot_icons {
